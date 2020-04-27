@@ -40,7 +40,7 @@ var rotateFn = function (item, txt){
     animateTo:angles+1800,
     duration:8000,
     callback:function (){
-      alert('那就吃' + txt + '吧！♥(´∀` )人);
+      alert('那就吃' + txt + '吧！♥(´∀` )人');
       turnplate.bRotate = !turnplate.bRotate;
     }
   });
