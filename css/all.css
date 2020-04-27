@@ -9380,23 +9380,23 @@ a.text-purple:hover, a.text-purple:focus {
 /* 大转盘样式 */
 .lottery-info {
   display: block;
-  max-width: 350px;
+  max-width: 380px;
   /*居中显示*/
   margin: 10px auto; }
 
 .lottery-info .wheel {
   display: block;
-  width: 350px;
-  height: 384px;
+  width: 380px;
+  height: 417px;
   position: absolute;
   z-index: 1;
   background-image: url(../img/wheel_bg.png);
   background-size: cover; }
 
 .lottery-info canvas.item {
-  width: 325px;
+  width: 326px;
   position: absolute;
-  top: 10px;
+  top: 24px;
   right: 0;
   left: 0;
   margin: auto; }
@@ -9673,8 +9673,8 @@ a.text-purple:hover, a.text-purple:focus {
     background: url(../img/wheel_bg.png) no-repeat;
     background-size: 300px; }
   .lottery-info canvas.item {
-    width: 300px;
-    top: 0; }
+    width: 260px;
+    top: 17px; }
   .lottery-info img.pointer {
     width: 55%;
     top: 70px; }
@@ -9706,9 +9706,9 @@ a.text-purple:hover, a.text-purple:focus {
     width: 100%;
     background: url(../img/wheel_bg.png) no-repeat;
     background-size: 300px; }
-  .lottery-info canvas.item {
+  /* .lottery-info canvas.item {
     width: 300px;
-    top: 0; }
+    top: 0; } */
   .lottery-info img.pointer {
     width: 55%;
     top: 70px; }
